@@ -1,6 +1,6 @@
 <details>
   <summary>Задание на оценку "удовлетворительно"</summary>
-  
+  ```
   Написать UI-обёртку над вашей лабораторной работой
   на Python'e. В интерфейсе должны быть, как минимум:
   1. Текстовое поле для ввода пути к python-интерпретатору (и, опционально, путь к вашему
@@ -15,15 +15,15 @@
   информативное сообщение о том, что пошло не так.
 
   Полезные ссылки:
-  1) [QFileDialog](https://doc.qt.io/qt-6/qfiledialog.html)
-  2) [QMessageBox](https://doc.qt.io/qt-6/qmessagebox.html)
-  3) [QProcess](https://doc.qt.io/qt-6/qprocess.html)
-  
+  - [QFileDialog](https://doc.qt.io/qt-6/qfiledialog.html)
+  - [QMessageBox](https://doc.qt.io/qt-6/qmessagebox.html)
+  - [QProcess](https://doc.qt.io/qt-6/qprocess.html)
+  ```
 </details>
   
 <details>
   <summary>Задание на оценку "хорошо"</summary>
-  
+  ```
   В дополнение к критериям на "удовлетворительно", действуют следующие условия:
   1. Интерфейс должен быть красиво оформлен. У окна должны быть установлены иконка и
   адекватный заголовок, при изменении размеров окна (если это допустимо) элементы
@@ -36,13 +36,13 @@
   должно падать в случае отсутствия или некорректно заданного файла настроек.
 
   Полезные ссылки:
-  1) [QSettings](https://doc.qt.io/qt-6/qsettings.html)
-  
+  - [QSettings](https://doc.qt.io/qt-6/qsettings.html)
+  ```
 </details>
 
 <details>
   <summary>Задание на оценку "отлично"</summary>
-  
+  ```
   В дополнение к критериям на "хорошо", действуют следующие условия:
   1. Пока работает ваш скрипт, приложение не должно выглядеть зависшим (это означает, что
   запускать процесс вы должны в отдельном потоке). Пока выполняется скрипт, должно
@@ -52,8 +52,8 @@
   исполняющего ваш скрипт, должен прерываться.
   
   Полезные ссылки:
-  1) [QProcessDialog](https://doc.qt.io/qt-6/qprogressdialog.html)
-  
+  - [QProcessDialog](https://doc.qt.io/qt-6/qprogressdialog.html)
+  ```
 </details>
 
 ## Пояснение к репозиторию
